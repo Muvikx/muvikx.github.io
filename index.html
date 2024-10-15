@@ -34,8 +34,8 @@
       const thead = document.createElement("thead");
       thead.innerHTML = `
         <tr class="bg-gray-700">
-          <th class="text-left p-2 border border-gray-600">Position</th>
-          <th class="text-left p-2 border border-gray-600">Logo</th>
+          <th class="text-center p-2 border border-gray-600">Position</th>
+          <th class="text-center p-2 border border-gray-600">Logo</th>
           <th class="text-left p-2 border border-gray-600">Nom</th>
           <th class="text-right p-2 border border-gray-600">Pts</th>
           <th class="text-right p-2 border border-gray-600">J</th>
@@ -54,8 +54,8 @@
         row.classList.add("hover:bg-gray-700");
 
         row.innerHTML = `
-          <td class="p-2 border border-gray-600 text-right">${index + 1}</td>
-          <td class="p-2 border border-gray-600">
+          <td class="p-2 border border-gray-600 text-center">${index + 1}</td>
+          <td class="p-2 border border-gray-600 flex justify-center">
             <img src="${team.logo}" alt="${team.name}" class="h-10 w-10 rounded-full">
           </td>
           <td class="p-2 border border-gray-600">${team.name}</td>
