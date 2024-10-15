@@ -4,13 +4,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Classement des Pools</title>
+  <title>Classement des Poules</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body class="bg-gray-900 text-gray-100 p-4">
   <div class="container mx-auto">
-    <h1 class="text-2xl font-bold mb-6 text-center">Classement des Pools</h1>
+    <h1 class="text-2xl font-bold mb-6 text-center">Classement des Poules</h1>
     <div id="pools-container" class="space-y-8"></div>
   </div>
 
@@ -24,7 +24,7 @@
       poolElement.classList.add("bg-gray-800", "p-4", "rounded-lg", "shadow-md");
 
       const title = document.createElement("h2");
-      title.textContent = `Pool ${pool}`;
+      title.textContent = `Poule ${pool}`;
       title.classList.add("text-xl", "font-semibold", "mb-4");
       poolElement.appendChild(title);
 
